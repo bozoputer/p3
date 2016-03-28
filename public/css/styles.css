@@ -42,5 +42,5 @@ html, body {
 
 .lorem {
   background: url("../img/bg-lorem.png") no-repeat top/cover;
-  border-bottom: none;
+  border: none;
 }
