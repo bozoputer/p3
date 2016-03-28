@@ -1,0 +1,46 @@
+html, body {
+  color: #fff;
+  height: 100%;
+}
+
+.column, .columns {
+  position: relative;
+}
+
+.fullWidth {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: initial;
+}
+
+.rockstar, .lorem {
+  background: url("../img/bg-rock.png") no-repeat top/cover;
+  border-right: 1px solid white;
+  height: 100vh;
+}
+@media only screen and (max-width: 1023px) {
+  .rockstar, .lorem {
+    height: 50vh;
+    border-bottom: 1px solid white;
+    border-right: none;
+  }
+}
+.rockstar img, .lorem img {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+@media only screen and (max-width: 767px) and (min-width: 500px) {
+  .rockstar img, .lorem img {
+    width: 50%;
+  }
+}
+
+.lorem {
+  background: url("../img/bg-lorem.png") no-repeat top/cover;
+  border-bottom: none;
+}
