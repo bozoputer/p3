@@ -46,7 +46,6 @@ html, body {
 
 .modalRock, .modalLorem {
   background-color: #1f233f;
-  top: 0;
   height: 100vh;
   padding: 0;
   color: #fff;
@@ -60,4 +59,8 @@ html, body {
 }
 .modalLorem .menu {
   background-color: #1f233f;
+}
+
+.reveal {
+  top: 0;
 }
