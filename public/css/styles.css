@@ -61,6 +61,6 @@ html, body {
   background-color: #1f233f;
 }
 
-.reveal {
+div#rockModal.reveal.full.modalRock.is-ios.without-overlay, div#rockModal.reveal.full.is-ios.without-overlay.modalLorem {
   top: 0;
 }
