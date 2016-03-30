@@ -1,5 +1,4 @@
 html, body {
-  color: #fff;
   height: 100%;
 }
 
@@ -43,4 +42,21 @@ html, body {
 .lorem {
   background: url("../img/bg-lorem.png") no-repeat top/cover;
   border: none;
+}
+
+.modalRock, .modalLorem {
+  background-color: #1f233f;
+  height: 100vh;
+  padding: 0;
+  color: #fff;
+}
+.modalRock .menu, .modalLorem .menu {
+  background-color: #fff;
+}
+
+.modalLorem {
+  background-color: #fff;
+}
+.modalLorem .menu {
+  background-color: #1f233f;
 }
