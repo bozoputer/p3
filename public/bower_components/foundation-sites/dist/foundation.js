@@ -6262,7 +6262,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         } else {
           top = parseInt((outerHeight - height) / 4, 10);
         }
-        this.$element.css({ top: top + 'px' });
+        //this.$element.css({ top: top + 'px' });
         // only worry about left if we don't have an overlay, otherwise we're perfectly in the middle
         if (!this.$overlay) {
           this.$element.css({ left: left + 'px' });
