@@ -45,16 +45,29 @@
 
 <script  type='text/javascript'>
 $(document).ready(function(){
-	$(".rockLogo").hover(function() {
-		$(this).attr("src","img/logo-rock2.png");
-			}, function() {
-		$(this).attr("src","img/logo-rock1.png");
-	});
-    $(".loremLogo").hover(function() {
-		$(this).attr("src","img/logo-lorem2.png");
-			}, function() {
-		$(this).attr("src","img/logo-lorem1.png");
-	});
+    $( ".rockLogo" ).bind({
+        focus: function() {
+            $(this).attr("src","img/logo-rock2.png");
+        },
+        mouseenter: function() {
+            $(this).attr("src","img/logo-rock2.png");
+        },
+        mouseleave: function() {
+            $(this).attr("src","img/logo-rock1.png");
+        }
+    });
+
+    $( ".loremLogo" ).bind({
+        focus: function() {
+            $(this).attr("src","img/logo-lorem2.png");
+        },
+        mouseenter: function() {
+            $(this).attr("src","img/logo-lorem2.png");
+        },
+        mouseleave: function() {
+            $(this).attr("src","img/logo-lorem1.png");
+        }
+    });
 });
 </script>
 </body>
