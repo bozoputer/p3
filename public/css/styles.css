@@ -73,18 +73,28 @@
   background-repeat: no-repeat;
   margin-left: 6px;
 }
-.profile .profileInfo div:first-of-type {
-  padding-left: 20px;
-  text-align: center;
-}
-@media only screen and (max-width: 425px) {
-  .profile .profileInfo div:first-of-type {
-    text-align: left;
-    padding-left: 0;
-  }
-}
 .profile .profileInfo div:first-of-type .attribute {
   color: #5bb990;
+}
+.profile .callout.secondary {
+  background-color: #1f233f;
+}
+.profile .callout {
+  border: 1px solid #fff;
+  color: #fff;
+}
+@media only screen and (max-width: 785px) {
+  .profile .callout {
+    border-left-style: none;
+    border-right-style: none;
+  }
+}
+.profile .callout p {
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+}
+.profile .callout p span {
+  font-weight: 400;
 }
 
 html,
@@ -105,17 +115,4 @@ body > div {
   margin-left: auto;
   margin-right: auto;
   max-width: initial;
-}
-
-.callout.secondary {
-  background-color: #1f233f;
-}
-
-.callout {
-  border: 1px solid #fff;
-  color: #fff;
-}
-.callout p {
-  font-family: "Oswald", sans-serif;
-  font-size: 1.1rem;
 }
