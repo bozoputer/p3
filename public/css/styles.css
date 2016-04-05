@@ -77,12 +77,22 @@
   padding-left: 20px;
   text-align: center;
 }
+@media only screen and (max-width: 425px) {
+  .profile .profileInfo div:first-of-type {
+    text-align: left;
+  }
+}
 .profile .profileInfo div:first-of-type .attribute {
   color: #5bb990;
 }
 
-html, body {
+html,
+body {
   height: 100%;
+}
+
+body > div {
+  background-color: #5bb990;
 }
 
 .column, .columns {
