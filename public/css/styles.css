@@ -73,6 +73,11 @@
   background-repeat: no-repeat;
   margin-left: 6px;
 }
+@media only screen and (min-width: 1440px) {
+  .profile .profileInfo div:first-of-type {
+    text-align: center;
+  }
+}
 .profile .profileInfo div:first-of-type .attribute {
   color: #5bb990;
 }
