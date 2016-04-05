@@ -28,6 +28,8 @@ Route::get('/', function () {
 
 Route::group(['middleware' => ['web']], function () {
 
-    Route::get('/rockstars', 'RockController@getIndex');
+    Route::get('/rockstars/create', 'RockController@getCreate');
+
+    Route::post('/rockstars/show', 'RockController@postShow');
 
 });
