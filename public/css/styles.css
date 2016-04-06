@@ -78,8 +78,13 @@
     text-align: center;
   }
 }
+@media only screen and (min-width: 641px) and (max-width: 785px) {
+  .profile .profileInfo div:first-of-type {
+    text-align: center;
+  }
+}
 .profile .profileInfo div:first-of-type .attribute {
-  color: #5bb990;
+  color: #efef8a;
 }
 .profile .callout.secondary {
   background-color: #1f233f;
@@ -87,6 +92,7 @@
 .profile .callout {
   border: 1px solid #fff;
   color: #fff;
+  margin: 0;
 }
 @media only screen and (max-width: 785px) {
   .profile .callout {
