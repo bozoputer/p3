@@ -56,12 +56,12 @@
 }
 .profile .artist p {
   text-align: center;
-  font-family: "Arvo", serif;
+  font-family: "Roboto Slab", serif;
   font-weight: 700;
   font-size: 1.2rem;
   color: #1f233f;
+  color: #fff;
   padding-top: 0.8rem;
-  text-transform: uppercase;
 }
 .profile .artist p::after {
   content: "";
@@ -101,7 +101,7 @@
   }
 }
 .profile .callout p {
-  font-family: "Oswald", sans-serif;
+  font-family: "Fira Sans", sans-serif;
   font-weight: 300;
 }
 .profile .callout p span {
