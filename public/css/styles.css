@@ -48,7 +48,7 @@
   width: 65%;
 }
 .profile .artist img {
-  border: 2px solid #1f233f;
+  border: 2px solid #fff;
   border-radius: 50%;
   width: 150px;
   margin: 1rem auto 0;
@@ -59,7 +59,6 @@
   font-family: "Roboto Slab", serif;
   font-weight: 700;
   font-size: 1.2rem;
-  color: #1f233f;
   color: #fff;
   padding-top: 0.8rem;
 }
@@ -84,10 +83,10 @@
   }
 }
 .profile .profileInfo div:first-of-type .attribute {
-  color: #efef8a;
+  color: #b8d797;
 }
 .profile .callout.secondary {
-  background-color: #1f233f;
+  background-color: #665687;
 }
 .profile .callout {
   border: 1px solid #fff;
@@ -114,7 +113,7 @@ body {
 }
 
 body > div {
-  background-color: #5bb990;
+  background-color: #b8d797;
 }
 
 .column, .columns {
