@@ -65,12 +65,12 @@
 .profile .artist p::after {
   content: "";
   background: url("../img/lightningBolt.png");
-  position: relative;
-  top: 2px;
+  position: absolute;
   width: 15px;
   height: 20px;
   background-repeat: no-repeat;
   margin-left: 6px;
+  margin-top: 5px;
 }
 @media only screen and (min-width: 1440px) {
   .profile .profileInfo div:first-of-type {
