@@ -7,15 +7,15 @@
     <title>E Boone | Project 3 | CSCI E-15</title>
     <link rel="stylesheet" href="../css/app.css">
     <link rel="stylesheet" href="../css/styles.css">
-    <!-- <link href='https://fonts.googleapis.com/css?family=Arvo|Oswald:400,300' rel='stylesheet' type='text/css'> -->
-
     <link href='https://fonts.googleapis.com/css?family=Fira+Sans:400,300,500,700|Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
-
-    <!-- <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'> -->
 </head>
 
 <body>
-<div class="row collapse fullWidth">
+<ul class="menu">
+  <li><a href="/">Home</a></li>
+  <li><a href="/lorem/create">OKC Lorem Ipsum</a></li>
+</ul>
+<div class="row collapse fullWidth rockMain">
     <div class="small-12 columns">
         @foreach($rockstars as $rockstar)
         <div class="profile">

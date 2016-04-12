@@ -29,6 +29,10 @@
   border: none;
 }
 
+.rockMain {
+  background-color: #544b8d;
+}
+
 .profile {
   width: 33.33333333333%;
   float: left;
@@ -48,7 +52,7 @@
   width: 65%;
 }
 .profile .artist img {
-  border: 2px solid #fff;
+  border: 2px solid #dedfda;
   border-radius: 50%;
   width: 150px;
   margin: 1rem auto 0;
@@ -59,7 +63,7 @@
   font-family: "Roboto Slab", serif;
   font-weight: 700;
   font-size: 1.2rem;
-  color: #fff;
+  color: #dedfda;
   padding-top: 0.8rem;
 }
 .profile .artist p::after {
@@ -83,14 +87,14 @@
   }
 }
 .profile .profileInfo div:first-of-type .attribute {
-  color: #b8d797;
+  color: #6b770e;
+  font-family: "Roboto Slab", serif;
 }
 .profile .callout.secondary {
-  background-color: #665687;
+  background-color: #dedfda;
 }
 .profile .callout {
-  border: 1px solid #fff;
-  color: #fff;
+  border-color: #544b8d;
   margin: 0;
 }
 @media only screen and (max-width: 785px) {
@@ -101,7 +105,8 @@
 }
 .profile .callout p {
   font-family: "Fira Sans", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
+  color: #544b8d;
 }
 .profile .callout p span {
   font-weight: 400;
@@ -110,10 +115,6 @@
 html,
 body {
   height: 100%;
-}
-
-body > div {
-  background-color: #b8d797;
 }
 
 .column, .columns {
@@ -125,4 +126,15 @@ body > div {
   margin-left: auto;
   margin-right: auto;
   max-width: initial;
+}
+
+.menu {
+  background-color: #f0e701;
+}
+.menu a {
+  color: #544b8d;
+  font-family: "Roboto Slab", serif;
+}
+.menu a:hover {
+  color: #6b770e;
 }
