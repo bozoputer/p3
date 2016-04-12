@@ -25,7 +25,7 @@
         @foreach($rockstars as $rockstar)
         <div class="profile">
             <div class="artist">
-                <img src="{!! $rockstar->profilePic !!}">
+                <img src="{!! $rockstar->profilePic !!}" alt="{!! $rockstar->artistName !!}">
                 <p>{!! $rockstar->artistName !!}</p>
             </div>
             <div class="callout secondary profileInfo">
