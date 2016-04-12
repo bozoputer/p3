@@ -22,17 +22,18 @@
 
 <div class="row generate">
     <div class="small-12 medium-8 medium-centered columns">
+        <img src="../img/lightningBolt_home.png" alt="Lightning Bolt">
         <p>The Random Rock Star Generator is a user profile generator done with a musical twist.</p>
 
         <p>If you're a developer looking for placeholder profiles for your app you've come to the right place! Instead of using the random profiles of a bunch of made-up nobodies, though, why not use the profiles of some your favorite rock stars?</p>
 
-        <p>Enter a number into the form below to generate some randomly-selected profiles.</p>
+        <p>Enter a number between 3 and 12 into the form below to generate some randomly-selected profiles.</p>
 
         <form method='POST' action='show'>
             {{  csrf_field()  }}
             <div class="input-group">
                 <span class="input-group-label">Users</span>
-                <input class="input-group-field" name="number" type="number" placeholder="3 < number < 12" pattern="number">
+                <input class="input-group-field" name="number" type="number" placeholder="6" pattern="number">
                 <div class="input-group-button">
                     <input type="submit" class="button" value="Submit">
                 </div>

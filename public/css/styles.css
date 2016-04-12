@@ -30,11 +30,16 @@
 }
 
 .generate {
-  margin-top: 5%;
+  margin-top: 2%;
   color: #dedfda;
   text-align: justify;
   font-family: "Fira Sans", sans-serif;
   font-size: 1.2rem;
+}
+.generate img {
+  display: block;
+  margin: 0 auto;
+  padding: 0.8rem 0;
 }
 .generate span {
   font-style: italic;
@@ -50,10 +55,12 @@
 }
 .generate .input-group {
   width: 50%;
+  margin: 0 auto;
 }
 @media only screen and (max-width: 1025px) {
   .generate .input-group {
     width: 100%;
+    margin: 0;
   }
 }
 .generate .input-group-label {
