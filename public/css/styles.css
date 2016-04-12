@@ -29,6 +29,43 @@
   border: none;
 }
 
+.generate {
+  margin-top: 5%;
+  color: #dedfda;
+  text-align: justify;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 1.2rem;
+}
+.generate span {
+  font-style: italic;
+}
+.generate .button {
+  background-color: #544b8d;
+  color: #f0e701;
+}
+@media only screen and (max-width: 641px) {
+  .generate {
+    padding: 1.2rem;
+  }
+}
+.generate .input-group {
+  width: 50%;
+}
+@media only screen and (max-width: 1025px) {
+  .generate .input-group {
+    width: 100%;
+  }
+}
+.generate .input-group-label {
+  font-size: 1rem;
+}
+.generate .errors {
+  color: #f0e701;
+  font-size: 0.8rem;
+  font-family: "Roboto Slab", serif;
+  font-style: italic;
+}
+
 .rockMain {
   background-color: #544b8d;
 }
@@ -87,8 +124,8 @@
   }
 }
 .profile .profileInfo div:first-of-type .attribute {
-  color: #6b770e;
-  font-family: "Roboto Slab", serif;
+  color: #525c0b;
+  font-family: "Fira Sans", sans-serif;
 }
 .profile .callout.secondary {
   background-color: #dedfda;
@@ -104,7 +141,7 @@
   }
 }
 .profile .callout p {
-  font-family: "Fira Sans", sans-serif;
+  font-family: "Roboto Slab", serif;
   font-weight: 400;
   color: #544b8d;
 }
@@ -136,5 +173,12 @@ body {
   font-family: "Roboto Slab", serif;
 }
 .menu a:hover {
-  color: #6b770e;
+  color: #6d20ae;
+  text-decoration: underline;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }

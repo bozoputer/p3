@@ -26,6 +26,11 @@ class RockController extends Controller {
         # Get user input from form
         $numberOfRockStars = $request->input('number');
 
+        # Validate user input from form
+        $this->validate($request, [
+            'number' => 'required|numeric|min:3|max:12'
+        ]);
+
         # Randomly select n-profiles from DB and shuffle them
         $rockstars = collect(Rockstar::all())->random($numberOfRockStars)->shuffle();
 

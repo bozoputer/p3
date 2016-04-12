@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="../css/app.css">
     <link rel="stylesheet" href="../css/styles.css">
     <link href='https://fonts.googleapis.com/css?family=Fira+Sans:400,300,500,700|Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
+    <style>
+        body {
+            background-color: #544B8D;
+        }
+    </style>
 </head>
 
 <body>
