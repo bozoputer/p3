@@ -29,6 +29,33 @@
   border: none;
 }
 
+.reveal {
+  color: #dedfda;
+  border: none;
+  background-color: #d31557;
+}
+.reveal .close-button {
+  color: #dedfda;
+}
+.reveal .close-button:hover {
+  color: #f0e701;
+}
+.reveal h2,
+.reveal p {
+  text-align: center;
+}
+.reveal h2 {
+  color: #f0e701;
+  font-family: "Roboto Slab", serif;
+  font-size: 1.5rem;
+  padding: 1rem 0;
+  position: relative;
+  top: 0.5rem;
+}
+.reveal p {
+  font-family: "Fira Sans", sans-serif;
+}
+
 .generateRock, .generateLorem {
   margin-top: 2%;
   color: #dedfda;

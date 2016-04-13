@@ -7,6 +7,7 @@
     <title>E Boone | Project 3 | CSCI E-15</title>
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Fira+Sans:400,300,500,700|Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
 </head>
 <body>
 <div class="row fullWidth">
@@ -18,12 +19,29 @@
   </div>
 </div>
 
+<!-- MODAL WINDOW -->
+<div id="intro" class="reveal" data-reveal data-overlay="false" data-animation-in="spin-in" data-animation-out="spin-out">
+  <h2>Welcome to Developer's Best Friend!</h2>
+  <p>Developer's Best Friend is a suite of tools to help software developers during the application development process.</p>
+  <p>Similar tools can be found in myriad other places on the Internet, but ours our way cooler :)</p>
+  <button class="close-button" data-close aria-label="Close reveal" type="button">
+   <span aria-hidden="true">&times;</span>
+ </button>
+</div>
+
 <script src="bower_components/jquery/dist/jquery.js"></script>
 <script src="bower_components/what-input/what-input.js"></script>
 <script src="bower_components/foundation-sites/dist/foundation.js"></script>
 <script src="js/min/app-min.js"></script>
 
-<script  type='text/javascript'>
+<script>
+$(document).ready(function(){
+    $('#intro').foundation('open');
+});
+</script>
+
+
+<script>
 $(document).ready(function(){
     $( ".rockLogo" ).bind({
         focus: function() {
