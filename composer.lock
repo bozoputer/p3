@@ -1016,12 +1016,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sixtrillion/LoremIpsum.git",
-                "reference": "4965b1d19f4fd57b374d3bafffd82ad4d0ede284"
+                "reference": "cb513a3e1d0d8b378d325c5b853500d317ef9433"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sixtrillion/LoremIpsum/zipball/4965b1d19f4fd57b374d3bafffd82ad4d0ede284",
-                "reference": "4965b1d19f4fd57b374d3bafffd82ad4d0ede284",
+                "url": "https://api.github.com/repos/sixtrillion/LoremIpsum/zipball/cb513a3e1d0d8b378d325c5b853500d317ef9433",
+                "reference": "cb513a3e1d0d8b378d325c5b853500d317ef9433",
                 "shasum": ""
             },
             "require": {
@@ -1057,7 +1057,7 @@
             "support": {
                 "source": "https://github.com/sixtrillion/LoremIpsum/tree/master"
             },
-            "time": "2016-04-13 19:47:40"
+            "time": "2016-04-13 20:11:43"
         },
         {
             "name": "swiftmailer/swiftmailer",
