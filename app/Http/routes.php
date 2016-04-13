@@ -32,4 +32,8 @@ Route::group(['middleware' => ['web']], function () {
 
     Route::post('/rockstars/show', 'RockController@postShow');
 
+    Route::get('/lorem/create', 'LoremController@getCreate');
+
+    Route::post('/lorem/show', 'LoremController@postShow');
+
 });

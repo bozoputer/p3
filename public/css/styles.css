@@ -29,48 +29,68 @@
   border: none;
 }
 
-.generate {
+.generateRock, .generateLorem {
   margin-top: 2%;
   color: #dedfda;
   text-align: justify;
   font-family: "Fira Sans", sans-serif;
   font-size: 1.2rem;
 }
-.generate img {
+.generateRock img, .generateLorem img {
   display: block;
   margin: 0 auto;
   padding: 0.8rem 0;
 }
-.generate span {
-  font-style: italic;
+.generateRock .appName, .generateLorem .appName {
+  font-weight: bold;
 }
-.generate .button {
+.generateRock .button, .generateLorem .button {
   background-color: #544b8d;
   color: #f0e701;
 }
 @media only screen and (max-width: 641px) {
-  .generate {
+  .generateRock, .generateLorem {
     padding: 1.2rem;
   }
 }
-.generate .input-group {
+.generateRock .input-group, .generateLorem .input-group,
+.generateRock .errors,
+.generateLorem .errors {
   width: 50%;
   margin: 0 auto;
 }
 @media only screen and (max-width: 1025px) {
-  .generate .input-group {
+  .generateRock .input-group, .generateLorem .input-group,
+  .generateRock .errors,
+  .generateLorem .errors {
     width: 100%;
     margin: 0;
   }
 }
-.generate .input-group-label {
+.generateRock .input-group-label, .generateLorem .input-group-label {
   font-size: 1rem;
 }
-.generate .errors {
+.generateRock .errors, .generateLorem .errors {
   color: #f0e701;
   font-size: 0.8rem;
   font-family: "Roboto Slab", serif;
   font-style: italic;
+}
+
+.generateLorem {
+  color: #000;
+}
+.generateLorem .button {
+  background-color: #fff;
+  color: #d31557;
+}
+.generateLorem cite {
+  display: inline;
+  font-size: inherit;
+  color: inherit;
+}
+.generateLorem cite::before {
+  content: '';
 }
 
 .rockMain {
@@ -172,16 +192,26 @@ body {
   max-width: initial;
 }
 
-.menu {
+.menu, .menu-lorem {
   background-color: #f0e701;
 }
-.menu a {
+.menu a, .menu-lorem a {
   color: #544b8d;
   font-family: "Roboto Slab", serif;
 }
-.menu a:hover {
-  color: #6d20ae;
+.menu a:hover, .menu-lorem a:hover {
+  color: #000;
   text-decoration: underline;
+}
+
+.menu-lorem {
+  background-color: #d31557;
+}
+.menu-lorem a {
+  color: #fff;
+}
+.menu-lorem a:hover {
+  color: #000;
 }
 
 input[type=number]::-webkit-inner-spin-button,
