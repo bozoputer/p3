@@ -17,13 +17,13 @@
 <body>
 <ul class="menu">
     <li><a href="/">Home</a></li>
-    <li><a href="#">OKC Lorem Ipsum</a></li>
+    <li><a href="/lorem/create">OKC Lorem Ipsum</a></li>
 </ul>
 
-<div class="row generate">
+<div class="row generateRock">
     <div class="small-12 medium-8 medium-centered columns">
         <img src="../img/lightningBolt_home.png" alt="Lightning Bolt">
-        <p>The Random Rock Star Generator is a user profile generator done with a musical twist.</p>
+        <p><span class="appName">The Random Rock Star Generator</span> is a user profile generator done with a musical twist.</p>
 
         <p>If you're a developer looking for placeholder profiles for your app you've come to the right place! Instead of using the random profiles of a bunch of made-up nobodies, though, why not use the profiles of some your favorite rock stars?</p>
 
