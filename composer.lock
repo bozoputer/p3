@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6bd3766aa933f61bb6e57d15d2779db8",
-    "content-hash": "5c1b54d03d66d02fdb16d6a4eaac25ae",
+    "hash": "ccf2884ae9ffd6c4060a4e23834aeeae",
+    "content-hash": "87876ccbcbd15ade8c13172956281911",
     "packages": [
         {
             "name": "barryvdh/laravel-debugbar",
@@ -214,55 +214,6 @@
                 "string"
             ],
             "time": "2015-11-06 14:35:42"
-        },
-        {
-            "name": "ebo-one/lorem-ipsum",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ebo-one/LoremIpsum.git",
-                "reference": "83e49a301f8af407165d66d65d0aa0427e33d282"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ebo-one/LoremIpsum/zipball/83e49a301f8af407165d66d65d0aa0427e33d282",
-                "reference": "83e49a301f8af407165d66d65d0aa0427e33d282",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.9"
-            },
-            "suggest": {
-                "twig/twig": "Twig is a template language for PHP, released under the new BSD license (code and documentation)."
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "ebo-one\\LoremIpsum\\": "lib/"
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Mathew Tinsley",
-                    "email": "tinsley@tinsology.net"
-                },
-                {
-                    "name": "Sam Williams",
-                    "email": "sam@badcow.co"
-                },
-                {
-                    "name": "E Boone",
-                    "email": "e@ebo.one"
-                }
-            ],
-            "description": "Lorem ipsum generator.",
-            "support": {
-                "source": "https://github.com/ebo-one/LoremIpsum/tree/master"
-            },
-            "time": "2016-04-13 17:24:20"
         },
         {
             "name": "jakub-onderka/php-console-color",
@@ -1058,6 +1009,55 @@
                 "shell"
             ],
             "time": "2016-03-09 05:03:14"
+        },
+        {
+            "name": "sixtrillion/lorem-ipsum",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sixtrillion/LoremIpsum.git",
+                "reference": "4965b1d19f4fd57b374d3bafffd82ad4d0ede284"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sixtrillion/LoremIpsum/zipball/4965b1d19f4fd57b374d3bafffd82ad4d0ede284",
+                "reference": "4965b1d19f4fd57b374d3bafffd82ad4d0ede284",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9"
+            },
+            "suggest": {
+                "twig/twig": "Twig is a template language for PHP, released under the new BSD license (code and documentation)."
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "sixtrillion\\LoremIpsum\\": "lib/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mathew Tinsley",
+                    "email": "tinsley@tinsology.net"
+                },
+                {
+                    "name": "Sam Williams",
+                    "email": "sam@badcow.co"
+                },
+                {
+                    "name": "Sixt Trillion",
+                    "email": "six@sixtrillion.com"
+                }
+            ],
+            "description": "Lorem ipsum generator.",
+            "support": {
+                "source": "https://github.com/sixtrillion/LoremIpsum/tree/master"
+            },
+            "time": "2016-04-13 19:47:40"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -3172,7 +3172,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "ebo-one/lorem-ipsum": 20
+        "sixtrillion/lorem-ipsum": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

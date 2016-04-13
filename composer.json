@@ -7,14 +7,14 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/ebo-one/LoremIpsum"
+            "url": "https://github.com/sixtrillion/LoremIpsum"
         }
     ],
     "require": {
         "php": ">=5.5.9",
         "laravel/framework": "5.2.*",
         "barryvdh/laravel-debugbar": "^2.2",
-        "ebo-one/lorem-ipsum": "dev-master"
+        "sixtrillion/lorem-ipsum": "dev-master"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
