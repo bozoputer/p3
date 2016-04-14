@@ -1,4 +1,4 @@
-#Project 2 - Developer's Best Friend (Laravel Basics)
+#Project 3 - Developer's Best Friend (Laravel Basics)
 
 
 ##Description
