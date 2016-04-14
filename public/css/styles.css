@@ -107,6 +107,14 @@
 .generateLorem {
   color: #000;
 }
+.generateLorem i a,
+.generateLorem cite a {
+  color: #d31557;
+}
+.generateLorem i a:hover,
+.generateLorem cite a:hover {
+  text-decoration: underline;
+}
 .generateLorem .button {
   background-color: #fff;
   color: #d31557;
@@ -114,10 +122,15 @@
 .generateLorem cite {
   display: inline;
   font-size: inherit;
-  color: inherit;
 }
 .generateLorem cite::before {
   content: '';
+}
+.generateLorem .errors {
+  color: #4134a3;
+  font-size: 0.8rem;
+  font-family: "Roboto Slab", serif;
+  font-style: italic;
 }
 
 .rockMain {
@@ -203,6 +216,22 @@
   font-weight: 400;
 }
 
+.loremMain p {
+  font-size: 1rem;
+  font-family: "Fira Sans", sans-serif;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  text-indent: 40px;
+}
+.loremMain p:first-of-type {
+  margin-top: 3%;
+}
+.loremMain img {
+  padding-top: 3%;
+  display: block;
+  margin: 0 auto;
+}
+
 html,
 body {
   height: 100%;
@@ -229,6 +258,19 @@ body {
 .menu a:hover, .menu-lorem a:hover {
   color: #000;
   text-decoration: underline;
+}
+.menu .back, .menu-lorem .back {
+  border-right: 1px solid #fff;
+}
+.menu .back:hover, .menu-lorem .back:hover {
+  text-decoration: none;
+}
+.menu .back::before, .menu-lorem .back::before {
+  content: '\2190';
+}
+.menu .back::after, .menu-lorem .back::after {
+  content: '';
+  padding-left: 8px;
 }
 
 .menu-lorem {
