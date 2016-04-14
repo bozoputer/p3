@@ -25,7 +25,7 @@
         <img src="../img/thinicewaving.gif" alt="Thin ice">
         <p><span class="appName">The OK Computer Lorem Ipsum Generator</span> creates dummy text, but with a twist. Instead of the typical <i><a href="http://www.lipsum.com/" target="_blank">Lorem ipsum dolor sit amet...</a></i> blah blah blah, it uses words from the song lyrics of Radiohead's seminal late-nineties album, <cite><a href="https://en.wikipedia.org/wiki/OK_Computer" target="_blank">Ok Computer</a></cite>.</p>
 
-        <p>Enter a number between 2 and 5 into the form below to generate paragraphs of dummy text.</p>
+        <p>Enter a number between 2 and 6 into the form below to generate paragraphs of dummy text.</p>
 
         <form method='POST' action='show'>
             {{  csrf_field()  }}
