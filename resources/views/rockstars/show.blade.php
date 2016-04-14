@@ -17,8 +17,9 @@
 
 <body>
 <ul class="menu">
-  <li><a href="/">Home</a></li>
-  <li><a href="/lorem/create">OKC Lorem Ipsum</a></li>
+    <li><a href="/rockstars/create" class="back">back</a></li>
+    <li><a href="/">Home</a></li>
+    <li><a href="/lorem/create">OKC Lorem Ipsum</a></li>
 </ul>
 <div class="row collapse fullWidth rockMain">
     <div class="small-12 columns">
