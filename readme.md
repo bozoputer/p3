@@ -29,7 +29,6 @@ DBF was created for the Harvard Extension School course, Dynamic Web Application
 
 ###Help
 
-+ [Stack Overflow](http://stackoverflow.com/questions/17525288/php-print-out-error-on-specific-div) (Specifically, lines 33 and 66-68 in index.php).
 + [Laravel 5.2 Docs](https://laravel.com/docs/5.2)
 
 ###Live URL:
