@@ -1,27 +1,42 @@
-# Laravel PHP Framework
+# Developer's Best Friend
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+#Project 2 - Developer's Best Friend (Laravel Basics)
 
-## Official Documentation
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+##Description
+Developer's Best Friend (DBF) is a suite of tools to help software developers during the application development process. 
 
-## Contributing
+Currently, the suite is comprised of a placeholder text (à la Lorem Ipsum) generator and a random profile generator, but more tools will be added in the future.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+Similar tools can be found in myriad other places on the Internet, but ours our way cooler :)
 
-## Security Vulnerabilities
+DBF was created for the Harvard Extension School course, Dynamic Web Applications (CSCI E-15). 
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+###Project goal:
 
-## License
++ The goal of this project is to get hands-on practice with working with the basics of Laravel.
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+###Task
+
++ Create a web application called Developer's Best Friend which includes a Lorem Ipsum Generator and a Random User Generator.
++ Your landing page should include a description of your app with either links to the two tools, or with the two tools present on the page.
++ The tools should be powered by HTML forms where the user can specify how many paragraphs they want, how many users they want, etc.
+
+###Plugins/libraries/packages/outside code
++ Foundation 6, by [Zurb](http://foundation.zurb.com)
++ jQuery (used by Foundation)
++ [Google fonts](http://google.com/fonts) (Fira Sans, Roboto Slab)
+
+###Help
+
++ [Stack Overflow](http://stackoverflow.com/questions/17525288/php-print-out-error-on-specific-div) (Specifically, lines 33 and 66-68 in index.php).
++ [Laravel 5.2 Docs](https://laravel.com/docs/5.2)
+
+###Live URL:
+[http://p3.ebo.one](http://p3.ebo.one)
+
+
+###Project demo
+[https://youtu.be/7jVCQywjBfs](https://youtu.be/7jVCQywjBfs)
