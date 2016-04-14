@@ -1,7 +1,3 @@
-# Developer's Best Friend
-
-
-
 #Project 2 - Developer's Best Friend (Laravel Basics)
 
 
@@ -25,8 +21,10 @@ DBF was created for the Harvard Extension School course, Dynamic Web Application
 + The tools should be powered by HTML forms where the user can specify how many paragraphs they want, how many users they want, etc.
 
 ###Plugins/libraries/packages/outside code
++ [Laravel 5.2](http://laravel.com)
 + Foundation 6, by [Zurb](http://foundation.zurb.com)
 + jQuery (used by Foundation)
++ A modified version of [Bad Cow's LoremIpsum](https://github.com/Badcow/LoremIpsum)
 + [Google fonts](http://google.com/fonts) (Fira Sans, Roboto Slab)
 
 ###Help
